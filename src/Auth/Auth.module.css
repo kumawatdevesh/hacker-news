@@ -1,0 +1,52 @@
+.row {
+    max-width: 112rem;
+    margin: 0 auto;
+}
+.auth {
+    width: 60%;
+    margin: 5rem auto;
+}
+.authForm {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    box-shadow: 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+.authForm label {
+    display: block;
+    margin: 1rem 0;
+}
+.authForm input[type="text"] {
+    font-size: 1.7rem;
+    width: 60%;
+    padding: 0.4rem;
+    outline: none;
+}
+.authForm input[type="email"] {
+    font-size: 1.7rem;
+    width: 60%;
+    padding: 0.4rem;
+    outline: none;
+}
+.authForm input[type="password"] {
+    font-size: 1.7rem;
+    width: 60%;
+    padding: 0.4rem;
+    outline: none;
+}
+.authForm input[type="submit"] {
+    display: block;
+    width: 10rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ff742b;
+    border: 0.1rem solid #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.image {
+    display: block;
+    width: 20rem;
+    margin: 0 auto;
+}

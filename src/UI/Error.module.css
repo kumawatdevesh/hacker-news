@@ -1,0 +1,37 @@
+.modal {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    width: 60rem;
+    height: 35rem;
+    z-index: 200;
+    background-color: #fff;
+}
+.upper {
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+    border-bottom: 0.5rem solid #ff742b;
+}
+.cancel {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 15rem;
+}
+.cancel button {
+    align-self: flex-end;
+    margin: 0rem 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2.5rem;
+    color: #000;
+    outline: none;
+    border: 0.1rem solid #fff;
+}
+.cancel button:hover {
+    background-color: rgb(185, 31, 31);
+    color: #fff;
+    cursor: pointer;
+}
